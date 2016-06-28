@@ -1,0 +1,4 @@
+Menu ini akan memberitahu anda beberapa fitur yang ada pada aplikasi ini
+- BMI : Fitur ini dapat membantu anda mengukur berat badan ideal di usia anda sekarang dan memberika beberapa tips tergantung status berat badan anda
+- BW : Fitur ini dapat membantu anda dengan memberi beberapa tutorial Workout
+- Record : Fitur ini  menbantu anda dalam melihat hasil dari data anda sebelumnya

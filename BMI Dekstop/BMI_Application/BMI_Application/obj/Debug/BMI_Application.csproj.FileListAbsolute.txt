@@ -1,0 +1,14 @@
+c:\users\user\documents\visual studio 2013\Projects\BMI_Application\BMI_Application\bin\Debug\BMI_Application.exe.config
+c:\users\user\documents\visual studio 2013\Projects\BMI_Application\BMI_Application\bin\Debug\BMI_Application.exe
+c:\users\user\documents\visual studio 2013\Projects\BMI_Application\BMI_Application\bin\Debug\BMI_Application.pdb
+c:\users\user\documents\visual studio 2013\Projects\BMI_Application\BMI_Application\obj\Debug\BMI_Application.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\BMI_Application\BMI_Application\obj\Debug\BMI_Application.Properties.Resources.resources
+c:\users\user\documents\visual studio 2013\Projects\BMI_Application\BMI_Application\obj\Debug\BMI_Application.csproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2013\Projects\BMI_Application\BMI_Application\obj\Debug\BMI_Application.exe
+c:\users\user\documents\visual studio 2013\Projects\BMI_Application\BMI_Application\obj\Debug\BMI_Application.pdb
+c:\users\user\documents\visual studio 2013\Projects\BMI_Application\BMI_Application\obj\Debug\BMI_Application.FormRecord.resources
+c:\users\user\documents\visual studio 2013\Projects\BMI_Application\BMI_Application\obj\Debug\BMI_Application.FormUser.resources
+c:\users\user\documents\visual studio 2013\Projects\BMI_Application\BMI_Application\obj\Debug\BMI_Application.FormUpdateAdmin.resources
+C:\Users\USER\Documents\Visual Studio 2013\Projects\BMI_Application\BMI_Application\obj\Debug\BMI_Application.FormAddAdmin.resources
+C:\Users\USER\Documents\Visual Studio 2013\Projects\BMI_Application\BMI_Application\obj\Debug\BMI_Application.FormLogin.resources
+C:\Users\USER\Documents\Visual Studio 2013\Projects\BMI_Application\BMI_Application\obj\Debug\BMI_Application.FormMenu.resources

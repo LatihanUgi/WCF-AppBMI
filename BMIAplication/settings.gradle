@@ -1,0 +1,1 @@
+include ':app', ':httpclient-4.3.3', ':httpcore-4.3.3', ':ksoap2-j2se-full-2.1.2', ':json-simple-1.1.1', ':gson-2.1', ':gson-2.1-sources'

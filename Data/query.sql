@@ -1,0 +1,34 @@
+insert into tb_artikel values ('Turunkan Berat Badan Dengan 9 Makanan Ini', 'Jika ingin menurunkan berat badan, maka salah satu hal yang harus anda lakukan adalah lebih mengatur porsi makan dan pintar-pintar menakar jumlah asupan kalori yang masuk dengan jumlah yang dibakar. Selain itu, mengonsumsi makanan-makanan jenis tertentu juga bisa membantu mengurangi berat badan. Ada beberapa makanan yang dapat membantu anda kenyang lebih lama, sehingga keinginan untuk ngemil tidak terlalu besar. Ada juga makanan yang dapat melancarkan metabolisme tubuh, sehingga cukup membantu program penurunan berat badan yang sedang dilakukan.<br>
+Beberapa Makanan Yang Membantu Menurunkan Berat Badan<br>
+<br><br>
+<br>Berikut ini adalah beberapa makanan yang dapat membantu menurunkan berat badan, diantaranya :<br>
+1. Biji-bijian<br>
+
+<br>Biji-bijian mengandung serat yang tinggi dan membutuhkan waktu yang lama untuk dicerna. Hal ini berarti mengonsumsi biji-bijian akan memberikan rasa kenyang lebih lama dan mencegah anda untuk makan berlebihan. Salah satu golongan biji-bijian yang disarankan untuk dikonsumsi adalah buncis. Selain murah dan mengenyangkan, buncis mengandung protein yang bagus dan dibutuhkan oleh tubuh.
+<br>
+2. Sup<br>
+
+<br>Mengawali santap siang anda dengan seporsi sup adalah langkah yang tepat. Sup akan menambah energi anda dan cukup mengenyangkan. Tidak masalah sup yang anda konsumsi, baik encer maupun kental, selama sup tersebut mengandung kaldu daging. Jumlah asupan yang dianjurkan adalah 100 hingga 150 kalori per sajian. Jadi, usahakan untuk tidak menambahkan mentega atau krim.
+3. Dark Chocolate<br>
+
+<br>Jika anda mau, anda bisa menikmati cokelat diantara jam makan. Namun pilihlah dark chocolate daripada cokelat susu. Hal ini sejalan dengan sebuah penelitian yang menemukan bahwa orang-orang yang diberi dark chocolate diketahui makan pizza 15% lebih sedikit beberapa jam setelahnya, daripada mereka yang memilih cokelat susu.
+4. Telur dan Sosis<br>
+
+<br>Sarapan dengan makanan berprotein tinggi dapat membantu anda mengurangi makan di jam-jam berikutnya. Sebuah penelitian yang melibatkan sekelompok wanita muda penderita obesitas, menemukan bahwa mereka yang mengasup 35 gram protein pada waktu sarapan cenderung segera merasa kenyang. Jumlah asupan kalori yang mereka konsumsi saat sarapan adalah 350 kalori, termasuk telur dan sosis daging sapi. Sarapan kaya protein tersebut memberikan efek kenyang yang cukup lama, dan bertahan lebih lama lagi saat mereka membatasi asupan makanan manis dan berlemak dibandingkan dengan para wanita yang memulai harinya dengan menyantap sereal.
+5. Sayur mayur<br>
+
+<br>Jangan lupa untuk menambahkan sayuran ke dalam menu diet anda. Selain bergizi dan menyehatkan, sayuran juga dapat membantu menekan jumlah kalori yang masuk. Saat para peneliti dari Penn State menambahkan Zucchini (semacam labu kecil) dan puree kembang kol, peserta penelitian yang terlibat ternyata lebih menyukai makanan yang mereka santap. Akan tetapi, diketahui pula bahwa mereka makan 200 hingga 350 kalori lebih sedikit kalori.
+6. Kacang-kacangan<br>
+
+<br>Jika anda sedang lapar namun belum waktunya jam makan, anda bisa menyantap camilan yang sehat seperti segenggam almond, walnut, pecan (kacang keriting), dan kacang. Penelitian menunjukkan bahwa ketika seseorang makan kacang, mereka cenderung makan lebih sedikit saat jam makan.
+7. Yogurt<br>
+
+<br>Yogurt memiliki manfaat yang baik bagi kesehatan dan dapat membantu mengurangi ukuran lingkar pinggang anda. Penelitian dari Harvard University yang melibatkan 120 ribu orang selama kurang lebih 10 tahun lebih, membuktikan bahwa dari berbagai jenis makanan, yogurt menjadi salah satu yang paling efektif dalam mengurangi berat badan.
+8. Apel<br>
+
+<br>Selain kacang-kacangan, buah-buahan khususnya apel juga bisa menjadi pilihan yang sangat tepat untuk menjadi camilan sehat dikala lapar mendera. Hal ini karena buah apel utuh mengandung banyak serat, sehingga memberikan efek mengenyangkan dalam waktu yang cukup lama . Ditambah lagi, aktivitas mengunyah akan memberikan sinyal ke otak bahwa anda sedang makan sesuatu dalam jumlah besar atau banyak.
+9. Grapefruit<br>
+
+<br>Buah yang masih dalam keluarga citrus atau jeruk ini cukup populer di negara-negara barat khususnya Amerika. Grapefruit adalah buah yang banyak mengandung nutrisi penting bagi tubuh dan dapat membantu anda menjalani program diet, khususnya bagi para penderita diabetes. Berdasarkan temuan dari penelitian di Scripps Clinic, San Diego, diketahui bahwa para penderita obesitas yang menyantap setengah buah grapefruit sebelum jam makan, mengalami penurunan berat badan rata-rata 1,35 kg dalam 12 minggu. Minum jus grapefruit secara rutin juga menghasilkan efek yang sama.', 'buah1.jpg', '03-Juni-2016', 'http://www.artikelkesehatan99.com/turunkan-berat-badan-dengan-9-makanan-ini/')
+
+insert into tb_artikel values ('5 Buah Yang Efektif Untuk Menurunkan Berat Badan', 'Untuk menurunkan berat badan hingga mencapai berat badan ideal bisa dilakukan dengan banyak cara, mulai dari diet ketat sampai olahraga rutin. Namun ada juga cara yang tidak membuat anda sengsara. Selain menjaga pola makan yang baik, anda dianjurkan untuk mengonsumsi buah-buahan yang dinilai efektif untuk membantu menurunkan berat badan. Ada beberapa buah yang bisa anda pilih untuk membantu program menurunkan berat badan, diantaranya adalah :<br> 1. Alpukat <br> Buah alpukat kaya akan asam lemak omega 9, lemak alami yang juga terdapat pada minyak zaitun. Buah yang teksturnya mirip mentega ini dapat menyuplai energi lebih cepat karena mampu meningkatkan metabolisme tubuh. Anda bisa mengonsumsinya sebagai jus tanpa gula, atau langsung dikonsumsi begitu saja. <br> 2. Kelapa <br> Kelapa mengandung trigliserida yang dapat meningkatkan metabolisme tubuh dan fungsi hati hingga 30 persen. Daging kelapa muda bisa membuat perut terasa penuh, jadi mencegah nafsu makan yang berlebihan. <br> 3. Lemon <br> Lemon diketahui merupakan salah satu buah yang dapat menghilangkan racun dalam tubuh (detoksifikasi). Lemon juga bisa meningkatkan metabolisme tubuh secara cepat. Selain itu, lemon memiliki menafaat untuk menjaga kesehatan hati. Hal itu membuat tubuh jadi lebih mudah dalam mencerna dan membakar lemak. <br> 4. Jeruk <br> Jeruk dinilai cukup efektif untuk menurunkan berat badan. Hal ini berdasarkan sebuah penelitian di Universitas Johns Hopkins, menemukan bahwa wanita yang mengonsumsi jeruk setiap hari, mengalami penurunan berat badan hingga rata-rata 10 kg  dalam 13 minggu. Para wanita yang diteliti tidak mengubah apapun termasuk gaya hidup dan pola makan mereka. <br> 5. Tomat <br> Tomat kaya akan vitamin C dan mengandung lycopenen fitokimia yang dapat merangsang asam amino agar mempercepat pembakaran lemak di dalam tubuh.', 'buah.jpg', '03-Juni-2016', 'http://www.artikelkesehatan99.com/5-buah-yang-efektif-untuk-menurunkan-berat-badan/')

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50px">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:id="@+id/user"
+        android:layout_alignParentRight="true"
+        android:text="USER"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tinggi"
+        android:id="@+id/tv_tinggi"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_tinggi"
+        android:layout_below="@+id/tv_tinggi"
+        android:layout_marginTop="10px"
+        android:hint="Tinggi Badan Anda.."/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Berat"
+        android:layout_marginTop="20px"
+        android:layout_below="@+id/et_tinggi"
+        android:id="@+id/tv_berat"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_berat"
+        android:layout_below="@+id/tv_berat"
+        android:layout_marginTop="10px"
+        android:hint="Berat Badan Anda.."/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="Proses"
+        android:background="#0099cc"
+        android:textColor="#fff"
+        android:layout_marginTop="20px"
+        android:textSize="20dp"
+        android:id="@+id/hitung_bmi"
+        android:layout_below="@+id/et_berat"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hitung_bmi">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Berat Ideal Anda:"
+                android:textSize="20dp"
+                android:layout_alignParentLeft="true"/>
+
+            <TextView
+                android:id="@+id/tv_jwb1"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20px"
+                android:layout_alignParentRight="true"
+                android:layout_height="wrap_content"
+                android:text=".."
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Status Berat Anda:"
+                android:textSize="20dp"
+                android:layout_marginTop="30px"
+                android:layout_below="@+id/tv_jwb1"
+                android:layout_alignParentLeft="true"/>
+
+            <TextView
+                android:id="@+id/tv_jwb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="30px"
+                android:text=".."
+                android:layout_below="@id/tv_jwb1"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tips Untuk Anda:"
+                android:textSize="20dp"
+                android:layout_marginTop="30px"
+                android:layout_below="@+id/tv_jwb2"
+                android:id="@+id/tv_judul_tips"
+                android:layout_alignParentLeft="true"/>
+
+            <TextView
+                android:id="@+id/tv_jwb3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px"
+                android:text="Tips.."
+                android:layout_below="@id/tv_judul_tips"
+                android:textSize="20dp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">BMI Aplication</string>
+
+    <!-- Layout Login -->
+    <string name="login">Login Form</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="username_hint">Masukan Username Anda</string>
+    <string name="password_hint">Masukan Password Anda</string>
+    <string name="login_btn">Login</string>
+    <string name="register_btn">Register</string>
+
+    <!-- Layout Register -->
+    <string name="register">Register Form</string>
+    <string name="username_r">Username</string>
+    <string name="password_r">Password</string>
+    <string name="password1_r">Re-Password</string>
+    <string name="username_hint_r">Masukan Username Anda</string>
+    <string name="password_hint_r">Masukan Password Anda</string>
+    <string name="password1_hint_r">Re-Password Anda</string>
+    <string name="nama_r">Nama</string>
+    <string name="nama_hint_r">Masukan Nama Anda</string>
+    <string name="jk_r">Jenis Kelamin</string>
+    <string name="jk_p">Pria</string>
+    <string name="jk_wanita">Wanita</string>
+    <string name="email_r">Email</string>
+    <string name="email_hint_r">Masukan email Anda</string>
+    <string name="hp_r">No Hp</string>
+    <string name="hp_hint_r">Masukan no handphone anda</string>
+    <string name="ttl_r">Tanggal Lahir</string>
+    <string name="ttl_hint_r">Tanggal</string>
+    <string name="ttl_hint_r1">Bulan</string>
+    <string name="ttl_hint_r2">Tahun</string>
+    <string name="step2">Daftar Sekarang</string>
+</resources>

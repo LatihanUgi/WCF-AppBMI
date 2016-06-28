@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50px">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:layout_alignParentLeft="true"
+        android:text="Help BMI"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:id="@+id/user"
+        android:layout_alignParentRight="true"
+        android:text="USER"
+        />
+
+    <ImageView
+        android:gravity="center"
+        android:id="@+id/tv_judul"
+        android:layout_width="450px"
+        android:layout_height="450px"
+        android:layout_marginTop="50px"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/logo"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_judul">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20dp"
+        android:text="Menu ini akan memberitahu anda beberapa fitur yang ada pada aplikasi ini
+- BMI : Fitur ini dapat membantu anda mengukur berat badan ideal di usia anda sekarang dan memberika beberapa tips tergantung status berat badan anda
+- BW : Fitur ini dapat membantu anda dengan memberi beberapa tutorial Workout
+- Record : Fitur ini  menbantu anda dalam melihat hasil dari data anda sebelumnya"/>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

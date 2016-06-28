@@ -1,0 +1,365 @@
+/*
+Theme Name: AK99
+Theme URL: http://www.artikelkesehatan99.com
+Description: 1-Column, 2-Columns, White, clean, and seo-friendly theme
+Author: mbotzz
+Author URL: http://www.artikelkesehatan99.com
+Tags : white, 1-column, 2-columns, clean, seo-friendly
+Version: 1
+*/
+
+
+/* ---- UMUM ---- */
+
+h1,h2,h3,h4,h5,h6{margin:0;padding:0;}
+h1{font-size:24px;}
+h2{font-size:20px;}
+h3{font-size:17px;}
+h4{font-size:15px;}
+h5{font-size:14px;}
+h6{font-size:13px;}
+
+p {
+	margin-bottom: 1.225em;
+	line-height:19px;
+}
+.warnabodyhome{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f9fcf7+0,f5f9f0+100;L+Green+3D */
+	background: #f9fcf7; /* Old browsers */
+	background: -moz-linear-gradient(top,  #f9fcf7 0%, #f5f9f0 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9fcf7), color-stop(100%,#f5f9f0)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f9fcf7 0%,#f5f9f0 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f9fcf7 0%,#f5f9f0 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f9fcf7 0%,#f5f9f0 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f9fcf7 0%,#f5f9f0 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9fcf7', endColorstr='#f5f9f0',GradientType=0 ); /* IE6-9 */
+}
+.warnabodysingle{
+	background:#FFFFFF;
+}
+#wrap{
+	min-width:200px;
+	max-width:980px;
+	margin:10px auto;
+	padding:10px;
+	padding-bottom:15px;
+	overflow-x:hidden;
+	/*font-family: 'Roboto Condensed', sans-serif;*/
+	font-family: 'Asap', sans-serif;
+}
+#badan{
+	margin-top:10px;
+}
+.kiri{
+	margin-top:10px;
+}
+.kanan{
+	margin-top:10px;
+}
+.extra-row{
+	padding-left:10px;
+	padding-right:10px;
+}
+.extra-padding {
+  padding-left: 5px !important; /* change the values to anything that you want */
+  padding-right: 5px !important;
+}
+.glyicon{
+	margin-right:10px;
+}
+.label:hover{
+	background:#31B404;
+}
+/* ---- END UMUM ---- */
+
+
+/* ---- HEADER.PHP ---- */
+
+.header{
+	text-align:center;
+	margin-bottom:10px;
+}
+@media all and (max-width: 768px){
+	.header img{
+		width:85%;
+	}
+}
+.kotakmenu{
+	margin-top:10px;
+	border-bottom:3px solid #A9D0F5;
+}
+.warnacrumb{
+	margin-top:10px;
+	margin-bottom:-5px;
+	background-color:#FFFFFF;
+	-moz-box-shadow:    0 0 15px #A9E2F3;
+	-webkit-box-shadow: 0 0 15px #A9E2F3;  
+	box-shadow: 0 0 15px #A9D0F5;
+}
+.warnacrumb a{
+	font-weight:bold;
+}
+/* ---- END HEADER.PHP ---- */
+
+/* ---- INDEX.PHP (HOMEPAGE) ---- */
+.kotak{
+	height:auto;
+	-moz-box-shadow:    0 0 15px #A9E2F3;
+	-webkit-box-shadow: 0 0 15px #A9E2F3;  
+	box-shadow: 0 0 15px #A9D0F5;
+	margin-top:10px;
+	padding:10px;
+	background-color:#FFFFFF;
+}
+.badankotak2{
+	margin-top:20px;
+}
+.kotaklist{
+	height:170px;
+	overflow-x:hidden;
+	margin-bottom:10px;
+}
+.kotaklist ul li{
+	list-style:square;
+}
+.kotaklist li{
+	line-height:17px;
+	margin-bottom:7px;
+}
+.tombolkotak{
+	text-align:center;
+	padding:5px;
+}
+.tengahicon{
+	text-align:center;
+	margin-bottom:10px;
+	border-bottom:1px solid #A9D0F5;
+}
+.tengahicon h2{
+	margin-top:5px;
+	padding-bottom:5px;
+	font-weight:bold;
+}
+/* ---- END INDEX.PHP (HOMEPAGE) ---- */
+
+
+/* ---- SIDEBAR.PHP ---- */
+.sidebar{
+	margin-top:10px;
+	margin-bottom:25px;
+}
+.sidebar ul li{
+margin-left:-10px;
+list-style:square;
+overflow:visible !important;
+}
+.judulsidebar h3{
+	font-weight:bold;
+	padding-bottom:5px;
+	margin-bottom:10px;
+	border-bottom:1px solid #A9D0F5;
+	color:#045FB4;
+}
+/* ---- END SIDEBAR.PHP ---- */
+
+
+/* ---- SINGLE.PHP ---- */
+.judulartikel{
+	margin-bottom:15px;
+	padding-bottom:5px;
+	border-bottom:4px solid #E6E6E6;
+}
+.judulartikel h1{
+	font-weight:bold;
+} 
+
+.detilartikel{
+	text-align:justify;
+	margin-bottom:10px;
+	font-size:14px;
+}
+.detilartikel h2, .detilartikel h3{
+	margin-bottom:10px;
+	font-weight:bold;
+}
+
+.terkait{
+	margin-top:15px;
+}
+.terkait h3, .terkait h2{
+	font-weight:bold;
+	padding-bottom:5px;
+	margin-bottom:15px;
+	color:#04B404;
+	border-bottom:1px solid #A9D0F5;
+	
+}
+.tagkunci{
+	margin-top:20px;
+	margin-bottom:5px;
+	font-size:13px;
+}
+.detiltag a{
+	font-size:12px;
+	color:#FFFFFF;
+}
+.warnatable{
+	background-color:#EFF8FB;
+	font-weight:bold;
+}
+
+.tanggal{
+	margin-top:3px;
+	font-size:11px;
+	font-family:tahoma;
+}
+
+/* ---- END SINGLE.PHP ---- */
+
+
+/* ---- 404 NOT FOUND ERROR ---- */
+.notfound{
+	color:#FF0000;
+	font-weight:bold;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.notfoundbesar{
+	color:#FF0000;
+	margin-top:20px;
+	margin-bottom:20px;
+	text-align:center;
+	font-size:26px;
+}
+/* ---- END 404 ---- */
+
+
+/* ---- GAMBAR ---- */
+.thumbnail{
+	border-color:#A9D0F5;
+}
+.gambar{
+	-moz-box-shadow:    0 0 15px #A9E2F3;
+	-webkit-box-shadow: 0 0 15px #A9E2F3;  
+	box-shadow: 0 0 15px #A9D0F5;
+	margin:5px;
+	height:110px;
+	text-align:center;
+}
+.kecil img{
+	width:100%;
+	height:100%;
+}
+.teksgambar{
+	height:60px;
+	overflow:hidden;
+}
+img.centered{display:block;margin-left:auto;margin-right:auto}
+img.aligncenter {display:block;margin-left:auto;margin-right:auto;margin-bottom:10px}
+img.alignright{float:right;display:inline;margin:0 0 2px 7px;padding:4px}
+img.alignleft{float:left;display:inline;margin:0 7px 2px 0;padding:4px}
+.alignleft{float:left}
+.alignright{float:right}
+
+.media-left img{
+	border:1px solid #A9D0F5;
+}
+.deskripsi{
+	text-align:justify;
+	margin-top:5px;
+}
+
+/* ---- END GAMBAR ---- */
+
+/* ---- SEARCH ---- */
+.kotaksearch{
+border:1px solid;
+width:100%;
+}
+.search {
+margin-top:5px;
+margin-bottom:6px;
+  width: 100%;
+  position: relative;
+    &:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 35px;
+    height: 35;
+    line-height: 35px;
+    background: #FF0000;
+    text-align: center;
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-smooth: always;
+  }
+}
+.searchTerm {
+  @include box-sizing(border-box);
+  width: 100%;
+  border: 1px solid #CEE3F6;
+  padding: 5px;
+  height: 35px;
+  outline: none;
+}
+.searchButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background: none repeat scroll 0 0 #E0ECF8;
+	border: 1px solid #CEE3F6;
+	color: #5e5e5e !important;
+	display: block;
+	float: right;
+	text-align: center;
+	box-sizing: border-box;
+}
+/* ---- END SEARCH ---- */
+
+/* Pagenavi */
+
+.navigation{
+	margin-bottom:15px;
+	margin-top:25px;
+	text-align:center;
+}
+/* End Pagenavi */
+
+
+
+/* ---- FOOTER ---- */
+
+#footer{
+	margin-top:20px;
+	background-color:#FAFAFA;
+	border:1px solid #A9D0F5;
+	padding:10px;
+	color:#000000;
+	-moz-box-shadow:    0 0 15px #A9E2F3;
+	-webkit-box-shadow: 0 0 15px #A9E2F3;  
+	box-shadow: 0 0 15px #A9D0F5;
+}
+.footerwelcome {
+	text-align:justify;
+}
+.link{
+}
+.link ul li{
+	margin-left:-20px;
+}
+.link h3, .footerartikel h3{
+	font-weight:bold;
+	border-bottom:1px solid #A9D0F5;
+	padding-bottom:5px;
+	margin-bottom:10px;
+/*color:#045FB4;*/
+}
+.footerartikel{
+}
+.footerartikel ul li{
+	list-style-type:square;
+	margin-left:-15px;
+}

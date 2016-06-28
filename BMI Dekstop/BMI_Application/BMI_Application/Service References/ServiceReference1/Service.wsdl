@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Service" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://192.168.43.141/WCFService4/Service.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://192.168.43.141/WCFService4/Service.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://192.168.43.141/WCFService4/Service.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://192.168.43.141/WCFService4/Service.svc?xsd=xsd3" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService_cekidadmin_InputMessage">
+    <wsdl:part name="parameters" element="tns:cekidadmin" />
+  </wsdl:message>
+  <wsdl:message name="IService_cekidadmin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:cekidadminResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_UserByID_InputMessage">
+    <wsdl:part name="parameters" element="tns:UserByID" />
+  </wsdl:message>
+  <wsdl:message name="IService_UserByID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UserByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_UpdateUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateUser" />
+  </wsdl:message>
+  <wsdl:message name="IService_UpdateUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_DeleteUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteUser" />
+  </wsdl:message>
+  <wsdl:message name="IService_DeleteUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_SemuaDataUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:SemuaDataUser" />
+  </wsdl:message>
+  <wsdl:message name="IService_SemuaDataUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SemuaDataUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_DataUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:DataUser" />
+  </wsdl:message>
+  <wsdl:message name="IService_DataUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DataUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_RecordByID_InputMessage">
+    <wsdl:part name="parameters" element="tns:RecordByID" />
+  </wsdl:message>
+  <wsdl:message name="IService_RecordByID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RecordByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_UpdateRecord_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateRecord" />
+  </wsdl:message>
+  <wsdl:message name="IService_UpdateRecord_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateRecordResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_DeleteRecord_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteRecord" />
+  </wsdl:message>
+  <wsdl:message name="IService_DeleteRecord_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteRecordResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_SemuaDataRecord_InputMessage">
+    <wsdl:part name="parameters" element="tns:SemuaDataRecord" />
+  </wsdl:message>
+  <wsdl:message name="IService_SemuaDataRecord_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SemuaDataRecordResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_DataRecord_InputMessage">
+    <wsdl:part name="parameters" element="tns:DataRecord" />
+  </wsdl:message>
+  <wsdl:message name="IService_DataRecord_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DataRecordResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_AdminByID_InputMessage">
+    <wsdl:part name="parameters" element="tns:AdminByID" />
+  </wsdl:message>
+  <wsdl:message name="IService_AdminByID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AdminByIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_UpdateAdmin_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAdmin" />
+  </wsdl:message>
+  <wsdl:message name="IService_UpdateAdmin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateAdminResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_DeleteAdmin_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteAdmin" />
+  </wsdl:message>
+  <wsdl:message name="IService_DeleteAdmin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteAdminResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_SemuaDataAdmin_InputMessage">
+    <wsdl:part name="parameters" element="tns:SemuaDataAdmin" />
+  </wsdl:message>
+  <wsdl:message name="IService_SemuaDataAdmin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SemuaDataAdminResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_DataAdmin_InputMessage">
+    <wsdl:part name="parameters" element="tns:DataAdmin" />
+  </wsdl:message>
+  <wsdl:message name="IService_DataAdmin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DataAdminResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_AutoIDAdmin_InputMessage">
+    <wsdl:part name="parameters" element="tns:AutoIDAdmin" />
+  </wsdl:message>
+  <wsdl:message name="IService_AutoIDAdmin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AutoIDAdminResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_AddAdmin_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddAdmin" />
+  </wsdl:message>
+  <wsdl:message name="IService_AddAdmin_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddAdminResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService_login_InputMessage">
+    <wsdl:part name="parameters" element="tns:login" />
+  </wsdl:message>
+  <wsdl:message name="IService_login_OutputMessage">
+    <wsdl:part name="parameters" element="tns:loginResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService">
+    <wsdl:operation name="cekidadmin">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/cekidadmin" message="tns:IService_cekidadmin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/cekidadminResponse" message="tns:IService_cekidadmin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UserByID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/UserByID" message="tns:IService_UserByID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/UserByIDResponse" message="tns:IService_UserByID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/UpdateUser" message="tns:IService_UpdateUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/UpdateUserResponse" message="tns:IService_UpdateUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/DeleteUser" message="tns:IService_DeleteUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/DeleteUserResponse" message="tns:IService_DeleteUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SemuaDataUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/SemuaDataUser" message="tns:IService_SemuaDataUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/SemuaDataUserResponse" message="tns:IService_SemuaDataUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DataUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/DataUser" message="tns:IService_DataUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/DataUserResponse" message="tns:IService_DataUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RecordByID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/RecordByID" message="tns:IService_RecordByID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/RecordByIDResponse" message="tns:IService_RecordByID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateRecord">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/UpdateRecord" message="tns:IService_UpdateRecord_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/UpdateRecordResponse" message="tns:IService_UpdateRecord_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteRecord">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/DeleteRecord" message="tns:IService_DeleteRecord_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/DeleteRecordResponse" message="tns:IService_DeleteRecord_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SemuaDataRecord">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/SemuaDataRecord" message="tns:IService_SemuaDataRecord_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/SemuaDataRecordResponse" message="tns:IService_SemuaDataRecord_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DataRecord">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/DataRecord" message="tns:IService_DataRecord_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/DataRecordResponse" message="tns:IService_DataRecord_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AdminByID">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/AdminByID" message="tns:IService_AdminByID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/AdminByIDResponse" message="tns:IService_AdminByID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAdmin">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/UpdateAdmin" message="tns:IService_UpdateAdmin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/UpdateAdminResponse" message="tns:IService_UpdateAdmin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAdmin">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/DeleteAdmin" message="tns:IService_DeleteAdmin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/DeleteAdminResponse" message="tns:IService_DeleteAdmin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SemuaDataAdmin">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/SemuaDataAdmin" message="tns:IService_SemuaDataAdmin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/SemuaDataAdminResponse" message="tns:IService_SemuaDataAdmin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DataAdmin">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/DataAdmin" message="tns:IService_DataAdmin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/DataAdminResponse" message="tns:IService_DataAdmin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AutoIDAdmin">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/AutoIDAdmin" message="tns:IService_AutoIDAdmin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/AutoIDAdminResponse" message="tns:IService_AutoIDAdmin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddAdmin">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/AddAdmin" message="tns:IService_AddAdmin_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/AddAdminResponse" message="tns:IService_AddAdmin_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="login">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService/login" message="tns:IService_login_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService/loginResponse" message="tns:IService_login_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService" type="tns:IService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="cekidadmin">
+      <soap:operation soapAction="http://tempuri.org/IService/cekidadmin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UserByID">
+      <soap:operation soapAction="http://tempuri.org/IService/UserByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateUser">
+      <soap:operation soapAction="http://tempuri.org/IService/UpdateUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteUser">
+      <soap:operation soapAction="http://tempuri.org/IService/DeleteUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SemuaDataUser">
+      <soap:operation soapAction="http://tempuri.org/IService/SemuaDataUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DataUser">
+      <soap:operation soapAction="http://tempuri.org/IService/DataUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RecordByID">
+      <soap:operation soapAction="http://tempuri.org/IService/RecordByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateRecord">
+      <soap:operation soapAction="http://tempuri.org/IService/UpdateRecord" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteRecord">
+      <soap:operation soapAction="http://tempuri.org/IService/DeleteRecord" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SemuaDataRecord">
+      <soap:operation soapAction="http://tempuri.org/IService/SemuaDataRecord" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DataRecord">
+      <soap:operation soapAction="http://tempuri.org/IService/DataRecord" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AdminByID">
+      <soap:operation soapAction="http://tempuri.org/IService/AdminByID" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateAdmin">
+      <soap:operation soapAction="http://tempuri.org/IService/UpdateAdmin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteAdmin">
+      <soap:operation soapAction="http://tempuri.org/IService/DeleteAdmin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SemuaDataAdmin">
+      <soap:operation soapAction="http://tempuri.org/IService/SemuaDataAdmin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DataAdmin">
+      <soap:operation soapAction="http://tempuri.org/IService/DataAdmin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AutoIDAdmin">
+      <soap:operation soapAction="http://tempuri.org/IService/AutoIDAdmin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddAdmin">
+      <soap:operation soapAction="http://tempuri.org/IService/AddAdmin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="login">
+      <soap:operation soapAction="http://tempuri.org/IService/login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service">
+    <wsdl:port name="BasicHttpBinding_IService" binding="tns:BasicHttpBinding_IService">
+      <soap:address location="http://192.168.43.141/WCFService4/Service.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

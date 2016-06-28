@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="50px">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:text="About BMI"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="USER"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/tv_judul"
+        android:layout_width="450px"
+        android:layout_height="450px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50px"
+        android:gravity="center"
+        android:src="@mipmap/logo" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_judul">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="BMI adalah sebuah ukuran Berat terhadap Tinggi badan yang umum digunakan untuk menggolongkan orang dewasa ke dalam beberapa kategori tergantung hasil dari perhitungan BMI"
+                android:textAlignment="center"
+                android:textSize="22dp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

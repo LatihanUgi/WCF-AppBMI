@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50px">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:id="@+id/user"
+        android:layout_alignParentLeft="true"
+        android:text="USER"
+        />
+
+    <ImageView
+        android:textColor="#fff"
+        android:src="@mipmap/logout"
+        android:layout_alignParentRight="true"
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:id="@+id/btn_logout"
+        android:text="Logout"/>
+
+    <ImageView
+        android:gravity="center"
+        android:id="@+id/tv_judul"
+        android:layout_width="450px"
+        android:layout_height="450px"
+        android:layout_marginTop="200px"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/logo"/>
+
+    <ImageView
+        android:textColor="#fff"
+        android:layout_alignParentBottom="true"
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:id="@+id/btn_bmi"
+        android:src="@mipmap/bmi"/>
+
+    <ImageView
+        android:textColor="#fff"
+        android:layout_above="@+id/btn_rec"
+        android:layout_marginBottom="20px"
+        android:layout_alignParentLeft="true"
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:id="@+id/btn_bw"
+        android:src="@mipmap/tips"/>
+
+    <ImageView
+        android:textColor="#fff"
+        android:layout_above="@+id/btn_rec"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:id="@+id/btn_about"
+        android:src="@mipmap/about"/>
+
+    <ImageView
+        android:textColor="#fff"
+        android:layout_above="@+id/btn_rec"
+        android:layout_marginBottom="20px"
+        android:layout_alignParentRight="true"
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:id="@+id/btn_help"
+        android:src="@mipmap/help"/>
+
+    <ImageView
+        android:textColor="#fff"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:id="@+id/btn_rec"
+        android:src="@mipmap/record"/>
+
+</RelativeLayout>
